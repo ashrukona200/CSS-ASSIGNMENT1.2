@@ -1,0 +1,140 @@
+/* deleted all of the defauilt padding and margin*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*set the body color*/
+body{
+    background-color: #D8DA3D;
+}
+
+/*set the position og the first div*/
+#left-section{
+    width:20%;
+    float: left;
+}
+
+/*set the position og the second div*/
+#right-section{
+    float: right;
+    width: 80%;
+}
+
+/*set the margin of the third div*/
+#div3{
+    margin-top: 20px;
+}
+
+/*added style and appearance of the heading*/
+h1{
+    color: #80007E;
+    margin: 15px 0px 30px 0px;
+    font-family: sans-serif;
+}
+
+/*set the style and appearance of first three paragraphs */
+.all-paragraphs1{
+    color: #80007E;
+    font-size:large;
+    white-space: pre;
+    margin-top: 18px;
+}
+
+/*added more feature for first paragraph */
+.first-line{
+    margin-top: 25px;  
+}
+
+/*Added more the styles and appearances of dot line */
+.dot{
+    border-top-style: dotted;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/*set the style and appearance footer paragraph */
+.footer{
+    color: #80007E;
+    display: inline;
+}
+
+/* added the style and appearance first part of footer paragraph */ 
+.first-part{
+    font-style: oblique;
+    font-size:large;
+}
+
+/*set the style and appearance second part of footer paragraph */
+.second-part{
+    font-family: Georgia, serif;
+}
+
+/*removed the default style of unordered list and set the top margin */
+ul{
+    list-style: none;
+    margin-top: 35px;
+}
+
+/* set the appearences and style of the lists */
+ul li{
+    background-color: white;
+    padding: 5px;
+    width: 180px;
+    margin: 10px 50px 10px 10px;
+    border-right: 18px;
+    color: #af13ad;
+    font-size: large;
+    font-family: Georgia, serif;
+}
+
+
+/* added color for first list*/
+ul li:nth-child(1){
+    border-right: 18px solid #FF7F00;
+}
+/* added color for second list*/
+ul li:nth-child(2){
+    border-right: 18px solid #0000FF;
+}
+/* added color for third list*/
+ul li:nth-child(3){
+    border-right: 18px solid #FF7F00;
+}
+/* added color for forth list*/
+ul li:nth-child(4){
+    border-right: 18px solid #0000FF;
+}
+
+/* set the style, color, apearences and border for the last three parachraphs*/
+.all-paragraphs2{
+    padding: 8px;
+    font-size: larger;
+    height: 25px;
+    width: 950px;
+    color: rgb(82, 71, 71);
+    border-style: dashed;
+    border-width:2px;
+}
+
+/* added the style, color, apearences and border for the second new parachraph*/
+.black-bordered{
+    border-color: rgb(73, 67, 67);
+}
+
+/* added the style, color, apearences and border for the second new parachraph*/
+.orange-bordered{
+    text-align: right;
+    margin: 20px 0px 20px 0px;
+    border-color: #FF7F00;
+    font-style: italic;
+}
+
+/* added the style, color, apearences and border for the third new parachraph*/
+.blue-bordered{
+    text-align: center;
+    font-weight: bold;
+    border-style: dotted;
+    border-color: #5858b8;
+    margin-bottom: 50px;
+}
